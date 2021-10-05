@@ -1,0 +1,21 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    font-size: 3em;
+}
+p, ul, ol, li {
+    font-size: 1.2rem;
+}
+ul li::marker {
+    color: darkorange;
+}
+a {
+    text-decoration: none;
+}
+table, th, td {
+    border: 1px solid gray;
+}
+th, td {
+    padding: 5px;
+}
