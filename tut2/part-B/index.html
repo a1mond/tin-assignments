@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TIN Tutorial 2</title>
+</head>
+
+<body>
+    <div class="form-div">
+        <form>
+            <div class="form-elem mndtr">
+                <label for="username">Username: </label>
+                <input class="text-input" type="text" name="username" id="username">
+            </div>
+            <div class="form-elem mndtr">
+                <label for="password">Password: </label>
+                <input class="text-input" type="password" name="password" id="password">
+            </div>
+            <div class="form-elem">
+                <label id="log-label" for="log">Stay logged in? </label>
+                <input class="text-input" type="checkbox" name="staylogged" id="log">
+            </div>
+            <div class="form-elem">
+                <div class="radio-elem">
+                    <input type="radio" id="http" value="http" name="protocol">
+                    <label for="http">HTTP</label>
+                </div>
+                <div class="radio-elem">
+                    <input type="radio" id="https" value="https" name="protocol">
+                    <label for="https">HTTPS</label>
+                </div>
+            </div>
+            <div class="form-elem mndtr">
+                <select name="per-type" id="pet-select">
+                    <option value="">what person are you</option>
+                    <option value="dog">Dog chad</option>
+                    <option value="cat">Cat simp</option>
+                </select>
+            </div>
+            <div class="form-elem">
+                <textarea id="summary" name="summary" rows="5" cols="30">Type in Skyrim lore...</textarea>
+            </div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+
+</html>
