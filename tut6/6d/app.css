@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+.form, .table {
+    width: 100%;
+    max-width: 300px;
+}
+input {
+    width: 80%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 2em;
+}
+button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 3px;
+}

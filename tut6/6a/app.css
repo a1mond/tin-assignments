@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 30em;
+    text-align: center;
+}
+.inputs {
+    margin: 1em;
+}
