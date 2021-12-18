@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="form-div">
+        <form>
+            <div class="input-div">
+                <label for="num1">First number:</label>
+                <input type="number" name="num1" id="num1">
+            </div>
+            <div class="input-div">
+                <label for="num2">Second number:</label>
+                <input type="number" name="num2" id="num2">
+            </div>
+            <div class="input-div">
+                <select name="operation" id="operation">
+                    <option selected value="+">Addition</option>
+                    <option value="-">Substraction</option>
+                    <option value="*">Multiplication</option>
+                    <option value="/">Division</option>
+                </select>
+            </div>
+        </form>
+        <div class="button-div">
+            <button>Submit</button>
+        </div>
+        <p>Result: <span id="result"></span></p>
+    </div>
+    <script src="form_submission.js"></script>
+</body>
+
+</html>
